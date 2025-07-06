@@ -1,0 +1,53 @@
+module com.example.platformerplain {
+    requires javafx.controls;
+    requires javafx.fxml;
+    requires java.logging;
+    requires java.desktop;
+    requires javafx.media;
+    requires junit;
+    requires org.testng;
+    requires org.testfx;
+    requires org.testfx.junit;
+    requires testfx.junit5;
+    requires org.junit.jupiter.api;
+
+    opens com.platformer.escape_beyond to javafx.fxml, junit; // Open your package for reflection
+    exports com.platformer.escape_beyond;
+    exports com.platformer.escape_beyond.controller;
+    opens com.platformer.escape_beyond.controller to javafx.fxml;
+    exports com.platformer.escape_beyond.model.entity;
+    exports test;
+    exports com.platformer.escape_beyond.model.entity.block;
+    opens com.platformer.escape_beyond.model.entity.block to javafx.fxml;
+    opens com.platformer.escape_beyond.model.entity to javafx.fxml, junit;
+    exports com.platformer.escape_beyond.utils;
+    opens com.platformer.escape_beyond.utils to javafx.fxml, junit;
+    exports com.platformer.escape_beyond.view;
+    opens com.platformer.escape_beyond.view to javafx.fxml, junit;
+    exports com.platformer.escape_beyond.model.entity.node.movable;
+    opens com.platformer.escape_beyond.model.entity.node.movable to javafx.fxml;
+    exports com.platformer.escape_beyond.model.entity.node.movable.enemy;
+    opens com.platformer.escape_beyond.model.entity.node.movable.enemy to javafx.fxml;
+    exports com.platformer.escape_beyond.model.entity.node.movable.platform;
+    opens com.platformer.escape_beyond.model.entity.node.movable.platform to javafx.fxml;
+    exports com.platformer.escape_beyond.model.entity.node.stationary;
+    opens com.platformer.escape_beyond.model.entity.node.stationary to javafx.fxml;
+    exports com.platformer.escape_beyond.model.game;
+    opens com.platformer.escape_beyond.model.game to javafx.fxml, junit;
+    exports com.platformer.escape_beyond.model.entity.block.platform;
+    opens com.platformer.escape_beyond.model.entity.block.platform to javafx.fxml;
+    exports com.platformer.escape_beyond.model.entity.block.obstacle;
+    opens com.platformer.escape_beyond.model.entity.block.obstacle to javafx.fxml;
+    exports com.platformer.escape_beyond.model.entity.block.enemy;
+    opens com.platformer.escape_beyond.model.entity.block.enemy to javafx.fxml;
+    exports com.platformer.escape_beyond.model.entity.block.destination;
+    opens com.platformer.escape_beyond.model.entity.block.destination to javafx.fxml;
+    exports com.platformer.escape_beyond.model.entity.block.feature;
+    opens com.platformer.escape_beyond.model.entity.block.feature to javafx.fxml;
+    exports com.platformer.escape_beyond.model.entity.block.supply;
+    opens com.platformer.escape_beyond.model.entity.block.supply to javafx.fxml;
+    exports com.platformer.escape_beyond.model.entity.block.player;
+    opens com.platformer.escape_beyond.model.entity.block.player to javafx.fxml;
+    exports com.platformer.escape_beyond.manager;
+    opens com.platformer.escape_beyond.manager to javafx.fxml, junit;
+}

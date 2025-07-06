@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="359.0" prefWidth="481.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.platformer.escape_beyond.controller.InformationSubpage1Controller">
+
+   <ImageView fitHeight="100.0" fitWidth="417.0" layoutX="33.0" layoutY="117.0" pickOnBounds="true">
+      <Image url="@../../../../../images/6_Information/information/intro.png" />
+   </ImageView>
+
+   <ImageView fitHeight="31.0" fitWidth="39.0" layoutX="435.0" layoutY="14.0" onMouseClicked="#return_toInformation" pickOnBounds="true" preserveRatio="true" styleClass="Information_closePage">
+      <Image url="@../../../../../images/buttons/close.png" />
+   </ImageView>
+
+</AnchorPane>

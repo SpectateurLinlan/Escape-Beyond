@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Option_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.platformer.escape_beyond.controller.OptionController">
+
+    <ImageView fitHeight="802.0" fitWidth="1283.0" layoutX="-3.0" opacity="0.52" pickOnBounds="true" visible="false">
+        <Image url="@../../../../../images/2_Maps/Background/forest3.jpg" />
+    </ImageView>
+
+    <ImageView fx:id="image_character1" fitHeight="325.0" fitWidth="201.0" layoutX="128.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../../../../../images/7_Option/character/Character1.png" />
+    </ImageView>
+
+    <ImageView fx:id="image_character2" fitHeight="325.0" fitWidth="174.0" layoutX="430.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../../../../../images/7_Option/character/Character2.png" />
+    </ImageView>
+
+    <ImageView fx:id="image_character3" fitHeight="324.0" fitWidth="216.0" layoutX="721.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../../../../../images/7_Option/character/Character3.png" />
+    </ImageView>
+
+    <ImageView fx:id="image_character4" fitHeight="316.0" fitWidth="202.0" layoutX="975.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../../../../../images/7_Option/character/Character4.png" />
+    </ImageView>
+
+    <Button fx:id="character4_button" layoutX="1000.0" layoutY="575.0" mnemonicParsing="false" onAction="#Switch_to_player4" onMouseEntered="#MouseEntered_character4" onMouseExited="#MouseExited_character4" prefHeight="40.0" styleClass="select_player_button" text="Explorer Lily">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </Button>
+
+    <Button fx:id="character3_button" layoutX="730.0" layoutY="575.0" mnemonicParsing="false" onAction="#Switch_to_player3" onMouseEntered="#MouseEntered_character3" onMouseExited="#MouseExited_character3" prefHeight="40.0" styleClass="select_player_button" text="Smart Jack">
+        <font>
+            <Font name="System Bold Italic" size="15.0" />
+        </font>
+    </Button>
+
+    <Button fx:id="character2_button" layoutX="450.0" layoutY="575.0" mnemonicParsing="false" onAction="#Switch_to_player2" onMouseEntered="#MouseEntered_character2" onMouseExited="#MouseExited_character2" prefHeight="40.0" styleClass="select_player_button" text="Brave Carl">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </Button>
+
+    <Button id="character1_button" fx:id="character1_button" layoutX="148.0" layoutY="576.0" mnemonicParsing="false" onAction="#Switch_to_player1" onMouseEntered="#MouseEntered_character1" onMouseExited="#MouseExited_character1" prefHeight="40.0" prefWidth="120.0" stylesheets="@style.css" text="Bouncy Amy">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+        <styleClass>
+            <String fx:value="select_player_button" />
+            <String fx:value="character1_button" />
+        </styleClass>
+    </Button>
+
+    <ImageView fx:id="Option_closePage" fitHeight="58.0" fitWidth="58.0" layoutX="1203.0" layoutY="15.0" onMouseClicked="#Switch_toHome" pickOnBounds="true" preserveRatio="true" styleClass="Option_closePage">
+        <Image url="@../../../../../images/buttons/close.png" />
+    </ImageView>
+    <ImageView fitHeight="112.0" fitWidth="959.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="50.0">
+        <image>
+            <Image url="@../../../../../images/7_Option/character/ChooseYourCharacter.png" />
+        </image>
+    </ImageView>
+    <ColorPicker fx:id="Option_colorPicker" onAction="#Change_backgroundColor" />
+
+
+</AnchorPane>

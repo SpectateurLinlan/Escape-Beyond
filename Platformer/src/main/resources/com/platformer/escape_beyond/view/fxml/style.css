@@ -1,0 +1,190 @@
+
+/* Start -> Next button */
+#Start_button_next {
+    -fx-background-image : url("/images/1_StartMain/StartButton.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+#Start_button_next:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+    -fx-background-color: #005A9E;
+}
+
+/* Home -> Switch to Option page button */
+#Home_Option_button {
+    -fx-background-image : url("/images/3_Setting/OptionClick.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+#Home_Option_button:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+    -fx-background-color: #005A9E;
+}
+
+/* Home -> Switch to Maps page button */
+#Home_Maps_button {
+    -fx-background-image : url("/images/3_Setting/MapsClick.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+#Home_Maps_button:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+    -fx-background-color: #005A9E;
+}
+
+/* Home -> Switch to Information page button */
+#Home_Information_button {
+    -fx-background-image : url("/images/3_Setting/InfoClick.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+#Home_Information_button:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+    -fx-background-color: #005A9E;
+}
+
+/* Home -> Switch to Setting page button */
+#Home_Setting_button {
+    -fx-background-image : url("/images/3_Setting/SettingClick.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+#Home_Setting_button:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+    -fx-background-color: #005A9E;
+}
+
+#Home_Start_button {
+    -fx-background-image : url("/images/3_Setting/StartClick.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+#Home_Start_button:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+    -fx-background-color: #005A9E;
+}
+
+#Maps_glacier_button {
+    -fx-background-image : url("/images/4_MapSelecting/Glacier.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+    -fx-transition: all 0.4s ease-in-out;
+}
+#Maps_glacier_button:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+    -fx-background-color: #005A9E;
+}
+
+#Maps_desert_button {
+    -fx-background-image : url("/images/4_MapSelecting/Desert.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+#Maps_desert_button:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+    -fx-background-color: #005A9E;
+}
+
+#Maps_forest_button {
+    -fx-background-image : url("/images/4_MapSelecting/Forest.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+#Maps_forest_button:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+    -fx-background-color: #005A9E;
+}
+
+.Home_closePage {
+    -fx-cursor: hand;
+}
+
+.Option_closePage {
+    -fx-cursor: hand;
+}
+
+.Information_closePage {
+    -fx-cursor: hand;
+}
+
+/* information button  */
+.info_introbutton {
+    -fx-background-image : url("/images/information/Introduction.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+
+.info_level1button {
+    -fx-background-image : url("/images/information/GlacierLevel.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+
+.info_level2button {
+    -fx-background-image : url("/images/information/DesertLevel.png");
+    -fx-background-size : cover;
+    -fx-background-repeat : no-repeat;
+    -fx-background-position : center;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+}
+
+/* option -> select player button */
+.select_player_button {
+    -fx-width: 250px;
+    -fx-cursor: hand;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="Pane_Start" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="720.0" prefWidth="1280.0"
+      xmlns="http://javafx.com/javafx/23.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.platformer.escape_beyond.controller.StartController"
+      stylesheets="@style.css">
+
+   <ImageView fx:id="Background_image" fitHeight="800.0" fitWidth="1281.0" pickOnBounds="true">
+      <Image url="@/images/1_StartMain/Intro_background.jpg"/>
+   </ImageView>
+
+   <Text layoutX="214.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ESCAPE BEYOND"
+         visible="false" wrappingWidth="1053.10414609313">
+      <font>
+         <Font name="Noto Serif Myanmar Bold" size="95.0" />
+      </font>
+   </Text>
+
+   <Button fx:id="Start_button_next" layoutX="1050.0" layoutY="590.0"
+           mnemonicParsing="false" onAction="#switchOnClicked" prefHeight="36.0" prefWidth="150.0">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Button>
+
+   <ImageView fx:id="Title_image" fitHeight="275.0" fitWidth="1130.0" layoutX="70.0" layoutY="77.0"
+              pickOnBounds="true" preserveRatio="true">
+      <Image url="@/images/1_StartMain/Title.png" />
+   </ImageView>
+</Pane>
